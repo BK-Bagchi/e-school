@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* this is public button css */
+button {
+    height: 45px;
+    color: white !important;
+    border: none;
+    background: #21b573;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+header {
+    background: #f0fff0;
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+nav img {
+    width: 150px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.introduntion span {
+    color: #21b573;
+}
+
+
+
+
+
+
+.about .col-md-3 {
+    min-width: 285px;
+    width: 285px;
+}
+
+.content {
+    background: #f8fffb;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.content:hover {
+    background: white;
+    box-shadow: 7px 7px 12px lightgray, 2px 2px 5px lightgray;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+
+
+
+
+
+
+.courses h2 {
+    color: #282531;
+}
+
+.courses span {
+    color: black;
+}
+
+.card {
+    min-width: 354px;
+    max-width: 354px;
+    border: none;
+    border-radius: 10px !important;
+    box-shadow: 7px 7px 12px lightgray, 2px 2px 5px lightgray;
+}
+
+.card-footer {
+    border: none;
+    background: white;
+}
+
+.card-footer img {
+    width: 25px;
+}
+
+
+
+
+
+
+.testimonial .col-md-3 {
+    padding: 0 !important;
+}
+
+.testimonial img {
+    width: 120px;
+    max-width: 100%;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.course-and-links,
+footer {
+    background: #282531;
+    color: white;
+}
+
+.course-and-links li:hover {
+    cursor: pointer;
+}
